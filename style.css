@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+ } 
+  
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border-bottom: 10px solid #ebebeb;
+  
+  z-index: 2;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  
+  background: #ffffff;
+}
+
+.header__contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.communicate {
+  margin-bottom: 35px;
+  font-size: 13px;
+}
+
+.link-write, .link-call, .item-calling {
+  color: #757575;
+}
+
+.link-write:hover, .link-call:hover {
+  text-decoration: none;
+}
+
+.write::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  background-image: url("image/chat.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.item-call {
+  margin-left: 30px;
+}
+
+.item-call::before {
+  content: " ";
+  display: inline-block;
+  width: 10px;
+  height: 15px;
+  margin-right: 5px;
+  background-image: url("image/call.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.item-menu {
+  text-transform: uppercase;
+  
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.link-menu {
+   text-decoration: none;
+   color: #164e81;
+}
+
+.item-menu:nth-child(n+2) {
+  margin-left: 30px;
+ }
+
+.link-menu:hover {
+  color: #db4b54;
+}
+
+.communicate {
+  display: flex;
+}
+
+.header__menu {
+   display: flex;
+   justify-content: space-between;
+}
+
+.list-call {
+  margin-bottom: 20px;
+  padding-left: 40px;
+  background-image: url("image/phone.jpg");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: left;
+}
+
+.header-center {
+  position: fixed;
+  top: 0;
+  width: 170px;
+  height: 130px;
+  left: 45%;
+  background-color: white;
+  border-bottom: 10px solid #ebebeb;
+  border-right: 10px solid #ebebeb;
+  border-left: 10px solid #ebebeb;
+  background-image: url("image/neovent-logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner {
+  position: fixed;
+  top: 105px;
+  width: 100%;
+  height: 300px;
+  background-image: url("image/banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  z-index: 0;
+}
+
+.main {
+  position: relative;
+  z-index: 1;
+  top: 400px;
+  
+  border-top: 10px solid #ebebeb;
+  
+  background-color: white;
+}
+
+.item-calling {
+  font-size: 12px;
+}
+
+.item-number {
+  color: #db4b54;
+  font-size: 20px;
+}

@@ -1,0 +1,174 @@
+/* Позиционирование */
+/* Блочная модель */
+/* Типографика */
+/* Оформление */
+/* Анимация */
+@font-face {
+  font-family: "Neovent";
+  src: url(fonts/pfdintextcomppro-medium-webfont.woff);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ a {
+     text-decoration: none;
+     color: inherit;
+ }
+
+ ul {
+     list-style-type: none;
+ }
+  .container {
+    max-width: 1300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+   } 
+    
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 10px solid #ebebeb;
+    background: #ffffff;
+    box-shadow: 0 0 10px #aaa;
+  }
+   
+  .header__contact {
+    display: flex;
+    
+    justify-content: space-between;
+  }
+
+  .header__list {
+      display: flex;
+      padding-top: 5px;
+  }
+
+  .header__link {
+    padding-left: 20px;
+    display: block;
+    font-size: 13px;
+    color: #777;
+    text-decoration: underline;
+  }
+
+  .link-letter {
+    
+    margin-right: 10px;
+
+    background-image: url("image/chat.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 13px;
+    
+  }
+  .link-call {
+    font-size: 13px;
+
+    background-image: url("image/call.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 13px;
+  }
+
+  .link-letter:hover, .link-call:hover {
+    text-decoration: none;
+  }
+
+  .header__phone-block {
+    padding-left: 40px;
+    background-image: url("image/phone.jpg");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: left;
+  }
+
+  .header__text {
+    display: block;
+    font-size: 11px;
+    color: #777;
+  }
+
+  .header__numb {
+    font-family: "Neovent", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #e44b45;
+  }
+
+  .header__logo {
+    position: fixed;
+    top: 0;
+    left: 40%;
+
+    
+    padding: 10px 20px;
+    width: 200px;
+    height: 140px;
+    
+    background-color: white;
+    border-bottom: 10px solid #ebebeb;
+    border-right: 10px solid #ebebeb;
+    border-left: 10px solid #ebebeb;
+    background-image: url("image/neovent-logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 140px 110px;
+  }
+
+  .header__menu {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+
+  .header__right {
+    display: flex;
+    justify-content: space-between; 
+  }
+
+  .header__item {
+    margin-right: 20px;
+    font-family: "Neovent", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #005197;
+    text-transform: uppercase;
+  }
+  .header__item:last-child {
+    margin-right: 0;
+  }
+  
+.header__item:hover {
+  color: #e44b45;
+}
+
+  .header__left {
+    display: flex;
+    justify-content: space-between;  
+  }
+
+  .banner {
+    position: fixed;
+    top: 105px;
+    width: 100%;
+    height: 300px;
+    background-image: url("image/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    z-index: 0;
+  }

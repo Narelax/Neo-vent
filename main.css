@@ -1,0 +1,141 @@
+.main {
+    position: relative;
+    z-index: 1;
+    top: 400px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding-top: 30px;
+    border-top: 10px solid #ebebeb;
+    
+    background-color: white;
+  }
+
+.main__title {
+    font-family: Neovent, Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    color:#005197;
+}
+
+.main__section{
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.main__span {
+    font-family: inherit;
+    text-transform: uppercase;  
+  }
+
+.main__text {
+    padding-left: 40px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+  }
+
+.list {
+    padding-left: 55px;
+    line-height: 2;
+    list-style-type: disc;
+  }
+
+.main__title-second {
+    margin-bottom: 30px;
+    font-family: "Neovent", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .main__list {
+      display: flex;
+      justify-content: space-between;
+
+      list-style-type: none;
+  }
+
+  .main__inner {
+    margin: 10px;
+    padding: 10px;
+  }
+.main__img-fan {
+    display: block;
+    max-width: 85%;
+    height: 85%;
+    margin-bottom: 10px;
+}
+
+.main__name-fans {
+    text-align: center;
+}
+
+.main__link {
+    font-family: "Neovent", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #005197;
+    text-transform: uppercase;
+}
+
+.main__link:hover, .main__link-advantage:hover {
+    color: #e44b45;
+}
+
+.main__advantage {
+    text-align: center;
+}
+
+
+.main__background-first {
+    height: 57%;
+    margin-bottom: 15px;
+    background-image: url("image/icon1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main__background-second {
+    height: 57%;
+    margin-bottom: 15px;
+    background-image: url("image/icon2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main__background-third {
+    height: 57%;
+    margin-bottom: 15px;
+    background-image: url("image/icon3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main__background-fourth {
+    height: 57%;
+    margin-bottom: 15px;
+    background-image: url("image/icon4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main__background-fifth {
+    height: 150px;
+    margin-bottom: 15px;
+    background-image: url("image/icon5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main__link-advantage {
+    font-family: "Neovent", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: inherit;
+    text-transform: uppercase;
+}
