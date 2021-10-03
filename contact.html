@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Neovent</title>
+        <link href="header.css" rel="stylesheet">
+        <link href="main.css" rel="stylesheet">
+        <link href="footer.css" rel="stylesheet">
+        <link href="contact.css" rel="stylesheet">
+    </head>
+    <body>
+      <header class="header">
+        <div class="container">
+          <div class="header__contact">
+            <ul class="header__list">
+                <li class=""><a class="header__link link-letter" href="#">Написать письмо</a></li>
+                <li class=""><a class="header__link link-call" href="#">Заказать звонок</a></li>
+             </ul>
+            <div class="header__phone-block">
+              <span class="header__text">Звоните</span>
+              <a class="header__numb" href="tel:88123204414" class=>8 (812) 320-44-14</a>
+            </div>
+          </div>
+          <div class="header__logo">
+          </div>
+          <div class="header__menu">
+            <ul class="header__right">
+              <li class="header__item"><a href="#" class="header__item">О компании</a></li>
+              <li class="header__item"><a href="#" class="header__item">Каталог оборудования</a></li>
+              <li class="header__item"><a href="#" class="header__item">Услуги</a></li>
+            </ul>
+            <ul class="header__left">
+              <li class="header__item"><a href="#" class="header__item">Документы</a></li>
+              <li class="header__item"><a href="#" class="header__item">Новости</a></li>
+              <li class="header__item"><a href="#" class="header__item">Партнеры</a></li>
+              <li class="header__item"><a href="/contact.html" class="header__item">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+       </header>
+       <div class="banner">
+       </div>
+
+       <main class="main">
+           <div class="container">
+               <section class="main__section">
+                    <div class="main__contact-wrap"> 
+                     <h1 class="main__title information">Контактная информация</h1>
+                     <p class="main__text">ООО «Неовент Системы»</p>
+                     <p class="main__text">Адрес: 190020, Санкт-Петербург, набережная Обводного канала,199-201, лит. П</p>
+                     <p class="main__text">Телефон: 8 (812) 320-44-14</p>
+                     <p class="main__text">Почта: inbox@neo-vent.ru</p>
+                   </div>
+                   <div id="mymap" class="main__map-frame"></div>
+               </section>
+
+               <section class="main__section-form">
+                <h1 class="main__title information">Обратная связь</h1>
+                <form class="main__form">
+                  <label class="main__form-block">
+                    <span class="main__form-text">Введите имя</span>
+                    <input type="text" class="main__form-field" placeholder="Ваше имя (обязательно)" required>
+                  </label>
+              
+                  <label class="main__form-block">
+                    <span class="main__form-text">Введите адрес почты</span>
+                    <input type="email" class="main__form-field" placeholder="Ваш E-mail (обязательно)" required>
+                  </label>
+
+                  <label class="main__form-block">
+                    <span class="main__form-text">Введите Ваше сообщение</span>
+                    <textarea class="main__form-field textarea" placeholder="Сообщение" required>
+                    </textarea>
+                  </label>                 
+                </form>
+               </section>
+           </div>
+
+           <footer class="footer">
+            <div class="container">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <span class="footer__span">© 2012-2021, Neo-vent</span>
+                  <span class="footer__span">Климатическое оборудование</span>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="http://ictec.ru">ICTec —</a>
+                  <a class="footer__link" href="http://ictec.ru">Создание и продвижение</a>
+                </li>
+              </ul>
+            </div>
+          </footer>
+       </main>
+       
+       <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A21effccd5b06e2e5f07b9d14707df2741e11312f0bc822a781c2a5a86a7b94a5&amp;width=400&amp;height=400&amp;id=mymap&amp;lang=ru_RU&amp;scroll=true"></script>
+      </body>
+</html>
+
+

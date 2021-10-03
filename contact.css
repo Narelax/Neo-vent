@@ -1,0 +1,51 @@
+.main__section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information {
+    margin-bottom: 40px;
+}
+
+.main__map-frame {
+
+}
+
+.main__form-block {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.main__form-text {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+}
+
+.main__form-field {
+    width: 30%;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #777;
+}
+
+.main__form-field:focus {
+    outline: 1px solid #005197;
+    border: none;
+    outline-offset: 1px;
+}
+
+.main__form-field:hover {
+    background: #f0ffff;
+    color: #000;
+}
+
+.textarea {
+    display: block;
+    min-height: 100px;
+    min-width: 305px;
+    max-width: 305px;
+}

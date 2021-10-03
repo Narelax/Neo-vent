@@ -55,15 +55,24 @@
       list-style-type: none;
   }
 
+  .main__item {
+    display: flex;
+    flex-direction: column;
+  }
+
   .main__inner {
+    text-align: center;
     margin: 10px;
     padding: 10px;
   }
+
 .main__img-fan {
-    display: block;
     max-width: 85%;
-    height: 85%;
     margin-bottom: 10px;
+}
+
+.main__img-fan:hover {
+    opacity: 0.5;
 }
 
 .main__name-fans {
@@ -86,9 +95,13 @@
     text-align: center;
 }
 
+.main__inner-advantage {
+    max-width: 170px;
+}
 
 .main__background-first {
-    height: 57%;
+    height: 0px;
+    padding-bottom: 100%;
     margin-bottom: 15px;
     background-image: url("image/icon1.jpg");
     background-repeat: no-repeat;
@@ -97,7 +110,8 @@
 }
 
 .main__background-second {
-    height: 57%;
+    height: 0px;
+    padding-bottom: 100%;
     margin-bottom: 15px;
     background-image: url("image/icon2.jpg");
     background-repeat: no-repeat;
@@ -106,8 +120,8 @@
 }
 
 .main__background-third {
-    height: 57%;
-    margin-bottom: 15px;
+    height: 0px;
+    padding-bottom: 100%;
     background-image: url("image/icon3.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -115,8 +129,8 @@
 }
 
 .main__background-fourth {
-    height: 57%;
-    margin-bottom: 15px;
+    height: 0px;
+    padding-bottom: 100%;
     background-image: url("image/icon4.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -124,8 +138,8 @@
 }
 
 .main__background-fifth {
-    height: 150px;
-    margin-bottom: 15px;
+    height: 0px;
+    padding-bottom: 100%;
     background-image: url("image/icon5.jpg");
     background-repeat: no-repeat;
     background-position: center;
