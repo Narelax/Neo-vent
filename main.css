@@ -7,38 +7,38 @@
     width: 100%;
     padding-top: 30px;
     border-top: 10px solid #ebebeb;
-    
+
     background-color: white;
-  }
+}
 
 .main__title {
     font-family: Neovent, Arial, Helvetica, sans-serif;
     font-size: 50px;
     font-weight: normal;
-    color:#005197;
+    color: #005197;
 }
 
-.main__section{
+.main__section {
     margin-top: 40px;
     font-size: 15px;
 }
 
 .main__span {
     font-family: inherit;
-    text-transform: uppercase;  
-  }
+    text-transform: uppercase;
+}
 
 .main__text {
     padding-left: 40px;
     padding-bottom: 20px;
     line-height: 1.5;
-  }
+}
 
 .list {
     padding-left: 55px;
     line-height: 2;
     list-style-type: disc;
-  }
+}
 
 .main__title-second {
     margin-bottom: 30px;
@@ -46,25 +46,27 @@
     font-size: 40px;
     font-weight: normal;
     text-align: center;
-  }
+}
 
-  .main__list {
-      display: flex;
-      justify-content: space-between;
+.main__list {
+    display: flex;
+    justify-content: space-between;
 
-      list-style-type: none;
-  }
+    list-style-type: none;
+}
 
-  .main__item {
+.main__item {
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .main__inner {
+.main__inner {
+    box-sizing: content-box;
     text-align: center;
+    height: 100%;
     margin: 10px;
     padding: 10px;
-  }
+}
 
 .main__img-fan {
     max-width: 85%;
@@ -100,7 +102,7 @@
 }
 
 .main__background-first {
-    height: 0px;
+    height: 0;
     padding-bottom: 100%;
     margin-bottom: 15px;
     background-image: url("image/icon1.jpg");
@@ -110,7 +112,7 @@
 }
 
 .main__background-second {
-    height: 0px;
+    height: 0;
     padding-bottom: 100%;
     margin-bottom: 15px;
     background-image: url("image/icon2.jpg");
@@ -120,7 +122,7 @@
 }
 
 .main__background-third {
-    height: 0px;
+    height: 0;
     padding-bottom: 100%;
     background-image: url("image/icon3.jpg");
     background-repeat: no-repeat;
@@ -129,7 +131,7 @@
 }
 
 .main__background-fourth {
-    height: 0px;
+    height: 0;
     padding-bottom: 100%;
     background-image: url("image/icon4.jpg");
     background-repeat: no-repeat;
@@ -138,7 +140,7 @@
 }
 
 .main__background-fifth {
-    height: 0px;
+    height: 0;
     padding-bottom: 100%;
     background-image: url("image/icon5.jpg");
     background-repeat: no-repeat;

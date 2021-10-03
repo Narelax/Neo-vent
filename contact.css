@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-between;
 }
+.main__contact-wrap {
+    width: 50%;
+}
 
 .information {
     margin-bottom: 40px;
