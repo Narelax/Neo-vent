@@ -38,12 +38,14 @@
 .main__form-field:focus {
     outline: 1px solid #005197;
     border: none;
-    outline-offset: 1px;
+    outline-offset: 2px;
 }
 
 .main__form-field:hover {
-    background: #f0ffff;
-    color: #000;
+    background: #ebebeb;
+    outline: 1px solid #005197;
+    border: none;
+    outline-offset: 2px;
 }
 
 .textarea {
@@ -51,4 +53,18 @@
     min-height: 100px;
     min-width: 305px;
     max-width: 305px;
+}
+
+.main__button {
+    margin-top: 50px;
+    padding: 3px 15px;
+}
+
+.main__button:hover {
+    border: 1px solid #005197;
+    border-radius: 2px;
+}
+
+.main__button-search {
+    padding: 3px 15px;
 }

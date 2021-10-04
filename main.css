@@ -58,10 +58,10 @@
 .main__item {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .main__inner {
-    box-sizing: content-box;
     text-align: center;
     height: 100%;
     margin: 10px;
@@ -70,6 +70,8 @@
 
 .main__img-fan {
     max-width: 85%;
+    max-height: 174px;
+   
     margin-bottom: 10px;
 }
 
@@ -104,7 +106,6 @@
 .main__background-first {
     height: 0;
     padding-bottom: 100%;
-    margin-bottom: 15px;
     background-image: url("image/icon1.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -114,7 +115,6 @@
 .main__background-second {
     height: 0;
     padding-bottom: 100%;
-    margin-bottom: 15px;
     background-image: url("image/icon2.jpg");
     background-repeat: no-repeat;
     background-position: center;
