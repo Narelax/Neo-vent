@@ -108,6 +108,11 @@
     color: #e44b45;
   }
 
+  .header__logo-link {
+    transition: all 0.7s ease-in-out 0s;
+  }
+
+  
   .header__logo {
     position: fixed;
     top: 0;
@@ -122,10 +127,23 @@
     border-bottom: 10px solid #ebebeb;
     border-right: 10px solid #ebebeb;
     border-left: 10px solid #ebebeb;
+    box-shadow: 0 0 10px #aaa;
     background-image: url("image/neovent-logo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 140px 110px;
+    transition: all 0.4s ease-in-out 0s;
+  }
+
+  .header__logo:hover:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 
   .header__burger {

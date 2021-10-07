@@ -25,14 +25,15 @@
 }
 
 .main__form-field {
-    width: 30%;
-    padding-left: 5px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    width: 35%;
+    padding: 10px 12px;
+    height: 40px;
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: #777;
+    background-color: #ebebeb;
+    border: none;
 }
 
 .main__form-field:focus {
@@ -42,29 +43,49 @@
 }
 
 .main__form-field:hover {
-    background: #ebebeb;
-    outline: 1px solid #005197;
-    border: none;
-    outline-offset: 2px;
+    background: #f2f2f2;  
 }
 
 .textarea {
     display: block;
     min-height: 100px;
-    min-width: 305px;
-    max-width: 305px;
+    min-width: 35%;
+    max-width: 35%;
 }
 
 .main__button {
-    margin-top: 50px;
-    padding: 3px 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
 }
 
 .main__button:hover {
-    border: 1px solid #005197;
-    border-radius: 2px;
+   
+}
+
+.main__search {
+width: 20px;
+height: 20px;
+position: absolute;
+top: calc(50% - 10px);
+left: 15px;
+fill: #005197;
+}
+
+.main__form-block_search {
+    position: relative;
+    width: 35%;
+    display: flex;
+}
+
+.field-search {
+    width: 85%;
+    padding-left: 40px;
 }
 
 .main__button-search {
     padding: 3px 15px;
+    cursor: pointer;
+    background-color: ;
 }
