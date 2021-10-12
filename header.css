@@ -24,6 +24,10 @@
  ul {
      list-style-type: none;
  }
+
+ address {
+   font-style: normal;
+ }
   .container {
     max-width: 1300px;
     padding-left: 20px;
@@ -147,7 +151,7 @@
   }
 
   .header__burger {
-    display: none;
+     display: none;
   }
 
 @media (max-width: 648px) {
