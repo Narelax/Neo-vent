@@ -19,8 +19,7 @@
 }
 
 .main__section {
-    margin-top: 40px;
-    font-size: 15px;
+    margin-top: 60px;
 }
 
 .span {
@@ -48,12 +47,15 @@
     text-align: center;
 }
 
+.main__text {
+    margin-bottom: 30px;
+}
+
 .main__list {
     display: flex;
     justify-content: space-between;
 
     list-style-type: none;
-    font-size: 20px;
 }
 
 .main__item {
@@ -72,7 +74,7 @@
 .main__img-fan {
     max-width: 85%;
     max-height: 174px;
-   
+
     margin-bottom: 10px;
 }
 
@@ -80,28 +82,34 @@
     opacity: 0.5;
 }
 
-.main__name-fans {
-    text-align: center;
-}
-
 .main__link {
-    font-family: "Neovent", Arial, Helvetica, sans-serif;
-    font-weight: normal;
     color: #005197;
-    text-transform: uppercase;
 }
 
 .main__link:hover {
     color: #e44b45;
 }
 
+.main__name-fans {
+    padding: 5px;
+    font-family: "Neovent", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: inherit;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .main__inner-advantage {
+    display: flex;
+    flex-direction: column;
     max-width: 170px;
+
 }
 
 .main__advantage {
     font-family: "Neovent", Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: 20px;
     text-align: center;
     text-transform: uppercase;
 }
